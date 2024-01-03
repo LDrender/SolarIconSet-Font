@@ -1,0 +1,8 @@
+// Rotation steps 45deg
+@for $i from 1 through 8 {
+  .si-rotate-#{$i * 45} {
+      -webkit-transform: rotate(#{$i * 45}deg);
+      -ms-transform: rotate(#{$i * 45}deg);
+      transform: rotate(#{$i * 45}deg);
+  }
+}

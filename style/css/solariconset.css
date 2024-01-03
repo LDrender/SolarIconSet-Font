@@ -1,0 +1,55 @@
+@import 'items';
+@import 'styling';
+@import 'animated';
+
+@font-face {
+  font-family: 'Solar-Icon-Set_Bold';
+  src:
+    url('webfonts/bold/Solar-Icon-Set_Bold.ttf?y925z8') format('truetype'),
+    url('webfonts/bold/Solar-Icon-Set_Bold.woff?y925z8') format('woff'),
+    url('webfonts/bold/Solar-Icon-Set_Bold.svg?y925z8#Solar-Icon-Set_Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Solar-Icon-Set_Linear';
+  src:
+    url('webfonts/linear/Solar-Icon-Set_Linear.ttf?q7j4a3') format('truetype'),
+    url('webfonts/linear/Solar-Icon-Set_Linear.woff?q7j4a3') format('woff'),
+    url('webfonts/linear/Solar-Icon-Set_Linear.svg?q7j4a3#Solar-Icon-Set_Linear') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.si-bold[class^="si-"],[class*=" si-bold si-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Solar-Icon-Set_Bold' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.si-linear[class^="si-"],[class*=" si-linear si-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Solar-Icon-Set_Linear' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
